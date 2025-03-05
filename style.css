@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.navbarContainer {
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    padding: 4px 16px;
+    box-sizing: border-box;
+}
+
+.navArea {
+    flex: 1;
+    height: 50%;
+    display: flex;
+    
+}
+
+.navAreaOne {
+    background-color: yellow;
+    align-items: center;
+}
+
+.logoImg {
+    padding-top: 25px;
+    width: 55px;
+    height: 65px;
+    
+}
+a {
+    text-decoration: none;
+    display: flex
+}
+.navBtn {
+    margin: 8px;
+    text-decoration: none;
+    &:hover {
+        color: blueviolet;
+        font-size: 20px;
+    }
+}
+.navAreaTwo {
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.navAreaThree {
+    background-color: purple;
+    
+}
+
+.contentContainer {
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(141, 141, 216);
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.background-image {
+ 
+}
+
+.footerContainer {
+    height: 200px;
+    width: 100%;
+    background-color: green;
+    padding: 16px;
+    box-sizing: border-box;
+
+
+}
